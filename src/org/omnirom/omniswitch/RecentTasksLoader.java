@@ -46,7 +46,7 @@ import android.util.Log;
 public class RecentTasksLoader {
     private static final String TAG = "RecentTasksLoader";
     private static final boolean DEBUG = false;
-    private static final int MAX_TASKS = 50;
+    private static final int MAX_TASKS = 10;
 
     private Context mContext;
     private AsyncTask<Void, List<TaskDescription>, Void> mTaskLoader;
